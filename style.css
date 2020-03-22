@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Khula', sans-serif;
+    background-image: url(img/header.png);
+    background-position: bottom;
+    height: 100vh;
+    width: auto;
+}
+
+.header__nav{
+    padding-top: 70px;
+    position: absolute;
+    right: 0;
+}
+
+.header__nav img{
+    cursor: pointer;
+}
+
+.header__container{
+    position: relative;
+    max-width: 1115px;
+    margin: 0 auto;
+}
+.header__text {
+    display: flex;
+    flex-direction: column;
+    padding: 260px 0 100px;
+    max-width: 735px;
+    color: #e6e6e6;
+}
+
+.header__text h1{
+    letter-spacing: 10px;
+    margin: 0;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.header hr{
+    margin: 10px 0 0;
+    width: 650px;
+}
+
+.header__text span{
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header__media{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 160px;
+}
+
+.header__media img{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.footer{
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
