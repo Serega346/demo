@@ -65,6 +65,139 @@ body{
 }
 
 .footer{
+    font-family: 'Tinos', serif;
     background-color: #1c1c1c;
     color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+.footer__about_us{
+    letter-spacing: 3px;
+    max-width: 450px;
+    font-weight: bold;
+}
+
+.footer__about_us h2{
+    font-size: 30px;
+}
+.footer__about_us span{
+    font-size: 24px;
+}
+
+.footer__contact_us{
+    letter-spacing: 3px;
+    max-width: 550px;
+    font-weight: bold;
+}
+
+.footer__contact_us h2{
+    font-size: 30px;
+}
+
+.footer__contact_us__number,
+.footer__contact_us__mail{
+    position: relative;
+    padding: 0 60px;
+    font-size: 24px;
+}
+
+.footer___cost{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer__contact_us__mail{
+    padding-top: 30px;
+}
+
+.footer__contact_us__number::before{
+    content: url(img/number.png);
+    position: absolute;
+    top: -2px;
+    left: 0px;
+}
+
+.footer__contact_us__mail::before{
+    content: url(img/mail.png);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.footer___cost {
+    padding-top: 30px;
+}
+
+.footer___cost h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer form input{
+    outline:none;
+    padding: 0 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer__choice__btn {
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 550px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+    cursor: pointer;
+}
+
+.footer__choice__btn span {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.footer__choice__btn::after{
+    content: url(img/shevron.png);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.footer__accept__btn{
+    margin: 30px 128px 0;
+    background-color: #b4b4b4;
+    color: #1c1c1c;
+    width: 295px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+    cursor: pointer;
+}
+
+.footer__copyright{
+    background-color: #000000;
+    max-height: 75px;
+}
+
+.footer__copyright__container{
+    display: flex;
+    align-items: center;
+    max-width: 1115px;
+    margin: 0 auto;
+}
+.footer__copyright img{
+    padding: 25px 0;
 }
