@@ -18,7 +18,7 @@ p {
 
 .line {
 
-    border-top: 1px solid black ;
+    border-top: 1px solid black;
 
 }
 
@@ -70,7 +70,7 @@ body {
 
 }
 
-.icon img{
+.icon img {
 
     cursor: pointer;
     width: 32px;
@@ -84,7 +84,7 @@ body {
 
 }
 
-.header__menu__wrap a{
+.header__menu__wrap a {
 
     color: #ffffff;
 
@@ -100,7 +100,7 @@ body {
 
 }
 
-.header__topnav .active{
+.header__topnav .active {
 
     color: #ffffff;
 
@@ -111,7 +111,7 @@ body {
     display: none;
 
 }
-  
+
 .header__topnav a {
 
     text-align: center;
@@ -122,7 +122,7 @@ body {
     display: block;
 
 }
-  
+
 .header__topnav a.icon {
 
     display: block;
@@ -138,8 +138,8 @@ body {
     color: black;
 
 }
-  
-.header__container{
+
+.header__container {
 
     position: relative;
     max-width: 1095px;
@@ -158,7 +158,7 @@ body {
 
 }
 
-.header__text h1{
+.header__text h1 {
 
     letter-spacing: 10px;
     margin: 0;
@@ -167,14 +167,14 @@ body {
 
 }
 
-.header hr{
+.header hr {
 
     margin: 10px 0 0;
     width: 650px;
 
 }
 
-.header__text span{
+.header__text span {
 
     letter-spacing: 3px;
     font-size: 36px;
@@ -182,7 +182,7 @@ body {
 
 }
 
-.header__media{
+.header__media {
 
     position: absolute;
     right: 0;
@@ -193,14 +193,14 @@ body {
 
 }
 
-.header__media img{
+.header__media img {
 
     cursor: pointer;
     margin: 0 10px;
 
 }
 
-.footer{
+.footer {
 
     font-family: 'Tinos', serif;
     background-color: #1c1c1c;
@@ -209,7 +209,7 @@ body {
 
 }
 
-.footer__container{
+.footer__container {
 
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +220,7 @@ body {
 
 }
 
-.footer__about_us{
+.footer__about_us {
 
     letter-spacing: 3px;
     max-width: 450px;
@@ -228,18 +228,19 @@ body {
 
 }
 
-.footer__about_us h2{
+.footer__about_us h2 {
 
     font-size: 30px;
 
 }
-.footer__about_us span{
+
+.footer__about_us span {
 
     font-size: 24px;
 
 }
 
-.footer__contact_us{
+.footer__contact_us {
 
     padding: 0 20px;
     letter-spacing: 3px;
@@ -248,14 +249,14 @@ body {
 
 }
 
-.footer__contact_us h2{
+.footer__contact_us h2 {
 
     font-size: 30px;
 
 }
 
 .footer__contact_us__number,
-.footer__contact_us__mail{
+.footer__contact_us__mail {
 
     position: relative;
     padding: 0 60px;
@@ -263,7 +264,7 @@ body {
 
 }
 
-.footer___cost{
+.footer___cost {
 
     font-weight: 400;
     font-size: 24px;
@@ -301,9 +302,9 @@ body {
 
 }
 
-.footer form input{
+.footer form input {
 
-    outline:none;
+    outline: none;
     padding: 0 10px;
     width: 250px;
     height: 30px;
@@ -322,7 +323,7 @@ body {
     height: 50px;
     border: none;
     border-radius: 10px;
-    outline:none;
+    outline: none;
     cursor: pointer;
     font-size: 1.1rem;
 
@@ -336,7 +337,7 @@ body {
 
 }
 
-.footer__choice__btn::after{
+.footer__choice__btn::after {
 
     content: url(img/shevron.png);
     position: absolute;
@@ -345,7 +346,7 @@ body {
 
 }
 
-button.footer__accept__btn{
+button.footer__accept__btn {
 
     margin: 30px 128px 0;
     background-color: #b4b4b4;
@@ -354,19 +355,19 @@ button.footer__accept__btn{
     height: 30px;
     border: none;
     border-radius: 10px;
-    outline:none;
+    outline: none;
     cursor: pointer;
 
 }
 
-.footer__copyright{
+.footer__copyright {
 
     background-color: #000000;
     max-height: 75px;
 
 }
 
-.footer__copyright__container{
+.footer__copyright__container {
 
     display: flex;
     align-items: center;
@@ -375,14 +376,15 @@ button.footer__accept__btn{
     margin: 0 auto;
 
 }
-.footer__copyright img{
+
+.footer__copyright img {
 
     padding: 25px 0
 
 }
 
 
-@media (max-width: 1076px){
+@media (max-width: 1076px) {
 
     .footer__about_us {
 
@@ -390,6 +392,7 @@ button.footer__accept__btn{
         max-width: 1000px;
 
     }
+
     .footer__contact_us {
 
         margin: 0 auto;
@@ -421,27 +424,30 @@ button.footer__accept__btn{
 
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
 
-    .header__text h1{
+    .header__text h1 {
 
         letter-spacing: 5px;
         font-size: 60px;
 
     }
+
     .header__text span {
 
         letter-spacing: 2px;
         font-size: 30px;
 
     }
+
     .header hr {
 
         width: 535px;
 
-    } 
+    }
 }
-@media (max-width: 650px){
+
+@media (max-width: 650px) {
 
     .footer form input {
 
@@ -449,14 +455,15 @@ button.footer__accept__btn{
         margin: 10px 0 0;
 
     }
+
     .footer__choice__btn {
 
-        width: 350px;  
+        width: 350px;
     }
 
-  }
-  
-  @media (max-width: 600px){
+}
+
+@media (max-width: 600px) {
 
     .header__text {
 
@@ -490,9 +497,9 @@ button.footer__accept__btn{
 
     }
 
-  }
+}
 
-  @media (max-width: 530px){
+@media (max-width: 530px) {
 
     .footer__accept__btn {
 
@@ -501,18 +508,18 @@ button.footer__accept__btn{
     }
 
     .footer__contact_us__number,
-     .footer__contact_us__mail {
+    .footer__contact_us__mail {
 
         font-size: 20px;
 
     }
 
-  }
-  
-  @media (max-width: 480px){
+}
+
+@media (max-width: 480px) {
 
     .footer__contact_us__number,
-     .footer__contact_us__mail {
+    .footer__contact_us__mail {
 
         font-size: 17px;
         padding: 0;
