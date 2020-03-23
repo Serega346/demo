@@ -11,10 +11,21 @@
 
 <body>
     <header class="header">
-        <div class="header__container">
-            <div class="header__nav">
-                <img src="img/btn.png" alt="">
+        <div class="header__topnav">
+            <p href="#home" class="active">LOGO</p>
+            <div id="header__links">
+                <a href="#">Наша цель</a>
+                <a href="#">Дома</a>
+                <a href="#">Архитектурное проектирование</a>
+                <a href="#">Дизайн</a>
+                <a href="#">Интерьер</a>
+                <a href="#">Ландшафт</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="img/btn.png" alt="">
+            </a>
+        </div>
+        <div class="header__container">
             <div class="header__text">
                 <h1>Lorem ipsum</h1>
                 <hr>
@@ -42,10 +53,10 @@
             <div class="footer__contact_us">
                 <h2>Связаться с нами</h2>
                 <div class="footer__contact_us__number">
-                    +(380)-73-777-7777
+                    <p>+(380)-73-777-7777</p>
                 </div>
                 <div class="footer__contact_us__mail">
-                    qwerty@ukr.net
+                    <p>qwerty@ukr.net</p>
                 </div>
                 <div class="footer___cost">
                     <h2>Узнать стоимость проекта</h2>
@@ -54,9 +65,9 @@
                             autocomplete="On" placeholder="Имя*">
                         <input type="text" name="firstname" id="firstname" required maxlength="20" minlength="5"
                             autocomplete="On" placeholder="Номер телефона*">
+                        <button class="footer__choice__btn"><span>Выберите услугу*</span></button>
+                        <button class="footer__accept__btn">Получить просчет</button>
                     </form>
-                    <button class="footer__choice__btn"><span>Выберите услугу*</span></button>
-                    <button class="footer__accept__btn">Получить просчет</button>
                 </div>
             </div>
         </div>
@@ -67,5 +78,7 @@
         </div>
     </div>
 </body>
+
+<script src="main.js"></script>
 
 </html>
