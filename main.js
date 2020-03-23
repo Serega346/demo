@@ -13,5 +13,3 @@ const myFunction = () => {
     }
 
   };
-
-myFunction();
