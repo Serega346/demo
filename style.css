@@ -2,6 +2,7 @@
 
 
 h1, h2, h3, h4, h5, h6 {
+
     font-family: 'Tinos', serif;
     letter-spacing: 5px;
     font-weight: 700;
@@ -16,7 +17,9 @@ p {
 }
 
 .line {
+
     border-top: 1px solid black ;
+
 }
 
 .line-height {
@@ -49,192 +52,257 @@ p {
     margin-left: 5em;
 
 }
-body{
+
+body {
+
     margin: 0;
     padding: 0;
-  background-color: #F6F6F6;
+    background-color: #F6F6F6;
+
 }
-.header{
+
+.header {
+
     font-family: 'Khula', sans-serif;
-    background-image: url(img/header.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: auto;
+    background: url(img/header.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+
 }
 
 .icon img{
+
     cursor: pointer;
     width: 32px;
+
 }
 
 .header__menu__wrap {
+
     display: flex;
     justify-content: space-around;
+
 }
 
 .header__menu__wrap a{
+
     color: #ffffff;
+
 }
 
 .header__topnav {
+
     background-color: #1c1c1c;
     overflow: hidden;
     position: fixed;
     width: 100%;
     z-index: 50;
+
 }
 
 .header__topnav .active{
+
     color: #ffffff;
+
 }
 
 #header__links {
+
     display: none;
+
 }
   
 .header__topnav a {
+
     text-align: center;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
     display: block;
+
 }
   
 .header__topnav a.icon {
+
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-}  
+
+}
 
 .header__topnav a:hover {
+
     background-color: #ddd;
     color: black;
+
 }
   
 .header__container{
+
     position: relative;
     max-width: 1095px;
     padding: 0 10px;
     margin: 0 auto;
+
 }
+
 .header__text {
+
     display: flex;
     flex-direction: column;
     padding: 260px 0 100px;
     max-width: 735px;
     color: #e6e6e6;
+
 }
 
 .header__text h1{
+
     letter-spacing: 10px;
     margin: 0;
     font-size: 72px;
     font-weight: 600;
+
 }
 
 .header hr{
+
     margin: 10px 0 0;
     width: 650px;
+
 }
 
 .header__text span{
+
     letter-spacing: 3px;
     font-size: 36px;
     font-weight: 400;
+
 }
 
 .header__media{
+
     position: absolute;
     right: 0;
     bottom: 40px;
     display: flex;
     justify-content: space-around;
     max-width: 160px;
+
 }
 
 .header__media img{
+
     cursor: pointer;
     margin: 0 10px;
+
 }
 
 .footer{
+
     font-family: 'Tinos', serif;
     background-color: #1c1c1c;
     color: #ffffff;
     padding: 30px 0;
+
 }
 
 .footer__container{
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1095px;
     padding: 0 10px;
     margin: 0 auto;
+
 }
 
 .footer__about_us{
+
     letter-spacing: 3px;
     max-width: 450px;
     font-weight: bold;
+
 }
 
 .footer__about_us h2{
+
     font-size: 30px;
+
 }
 .footer__about_us span{
+
     font-size: 24px;
+
 }
 
 .footer__contact_us{
+
     padding: 0 20px;
     letter-spacing: 3px;
     max-width: 550px;
     font-weight: bold;
+
 }
 
 .footer__contact_us h2{
+
     font-size: 30px;
+
 }
 
 .footer__contact_us__number,
 .footer__contact_us__mail{
+
     position: relative;
     padding: 0 60px;
     font-size: 24px;
+
 }
 
 .footer___cost{
+
     font-weight: 400;
     font-size: 24px;
+
 }
 
 
-.footer__contact_us__number::before{
+.footer__contact_us__number::before {
+
     content: url(img/number.png);
     position: absolute;
     top: -2px;
-    left: 0px;
+    left: 0;
+
 }
 
-.footer__contact_us__mail::before{
+.footer__contact_us__mail::before {
+
     content: url(img/mail.png);
     position: absolute;
-    left: 0px;
+    left: 0;
+
 }
 
 .footer___cost {
+
     padding-top: 30px;
+
 }
 
 .footer___cost h2 {
+
     font-size: 24px;
     font-weight: 400;
+
 }
 
 .footer form input{
+
     outline:none;
     padding: 0 10px;
     width: 250px;
@@ -242,34 +310,43 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+
 }
 
 .footer__choice__btn {
+
     position: relative;
     background-color: #ffffff;
     margin-top: 20px;
-    width: 550px;
-    height: 30px;
+    width: 510px;
+    height: 50px;
     border: none;
     border-radius: 10px;
     outline:none;
     cursor: pointer;
+    font-size: 1.1rem;
+
 }
 
 .footer__choice__btn span {
+
     position: absolute;
     left: 10px;
     top: 8px;
+
 }
 
 .footer__choice__btn::after{
+
     content: url(img/shevron.png);
     position: absolute;
     right: 20px;
     top: 10px;
+
 }
 
-.footer__accept__btn{
+button.footer__accept__btn{
+
     margin: 30px 128px 0;
     background-color: #b4b4b4;
     color: #1c1c1c;
@@ -279,142 +356,236 @@ body{
     border-radius: 10px;
     outline:none;
     cursor: pointer;
+
 }
 
 .footer__copyright{
+
     background-color: #000000;
     max-height: 75px;
+
 }
 
 .footer__copyright__container{
+
     display: flex;
     align-items: center;
     max-width: 1095px;
     padding: 0 10px;
     margin: 0 auto;
+
 }
 .footer__copyright img{
-    padding: 25px 0;
+
+    padding: 25px 0
+
 }
 
 
 @media (max-width: 1076px){
+
     .footer__about_us {
+
         text-align: center;
         max-width: 1000px;
+
     }
     .footer__contact_us {
+
         margin: 0 auto;
         padding-top: 50px;
         text-align: center;
         max-width: 1000px;
+
     }
+
     .footer__contact_us__number::before {
+
         left: 0;
         right: 300px;
+
     }
+
     .footer__contact_us__mail::before {
+
         left: 0;
         right: 300px;
+
     }
+
     .footer__accept__btn {
+
         margin: 30px 75px;
+
     }
+
 }
 
 @media (max-width: 750px){
+
     .header__text h1{
+
         letter-spacing: 5px;
         font-size: 60px;
+
     }
     .header__text span {
+
         letter-spacing: 2px;
         font-size: 30px;
+
     }
     .header hr {
+
         width: 535px;
+
     } 
 }
 @media (max-width: 650px){
+
     .footer form input {
+
         width: 330px;
         margin: 10px 0 0;
+
     }
     .footer__choice__btn {
+
         width: 350px;  
     }
+
   }
   
   @media (max-width: 600px){
+
     .header__text {
-        padding: 260px 0 170px;  
+
+        padding: 260px 0 170px;
+
     }
+
     .header__media {
+
         left: 0;
+
     }
+
     .header__text h1 {
+
         letter-spacing: 3px;
         font-size: 45px;
+
     }
+
     .header__text span {
+
         letter-spacing: 2px;
         font-size: 23px;
+
     }
+
     .header hr {
+
         width: 437px;
+
     }
+
   }
 
   @media (max-width: 530px){
+
     .footer__accept__btn {
+
         margin: 30px 0;
+
     }
+
     .footer__contact_us__number,
      .footer__contact_us__mail {
+
         font-size: 20px;
+
     }
+
   }
   
   @media (max-width: 480px){
+
     .footer__contact_us__number,
      .footer__contact_us__mail {
+
         font-size: 17px;
         padding: 0;
+
     }
+
     .footer__contact_us__number::before,
     .footer__contact_us__mail::before {
+
         right: 240px;
+
     }
+
     .footer__contact_us h2 {
+
         font-size: 20px;
+
     }
+
     .footer__about_us span {
+
         font-size: 20px;
+
     }
+
     .footer___cost h2 {
+
         font-size: 20px;
+
     }
+
     .header__text h1 {
+
         letter-spacing: 2px;
         font-size: 40px;
+
     }
+
     .footer__accept__btn {
+
         margin: 30px 0;
         width: 240px;
+
     }
+
     .footer form input {
+
         width: 230px;
+
     }
+
     .footer__choice__btn {
+
         width: 250px;
+
     }
+
     .header__text span {
+
         font-size: 17px;
+
     }
+
     .header hr {
+
         width: 275px;
+
     }
+
     .header {
+
         height: 900px;
+
     }
+
 }

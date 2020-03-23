@@ -186,11 +186,13 @@
                 <div class="footer___cost">
                     <h2>Узнать стоимость проекта</h2>
                     <form action="#" target="_blank" method="POST">
-                        <input type="text" name="firstname" id="firstname" required maxlength="20" minlength="5"
+                        <input type="text" name="firstName" id="firstName" required maxlength="20" minlength="5"
                             autocomplete="On" placeholder="Имя*">
-                        <input type="text" name="firstname" id="firstname" required maxlength="20" minlength="5"
+                        <input type="tel" name="phoneNumber" id="phoneNumber" required maxlength="20" minlength="5"
                             autocomplete="On" placeholder="Номер телефона*">
-                        <button class="footer__choice__btn"><span>Выберите услугу*</span></button>
+                        <select class="form-control form-control-lg footer__choice__btn">
+                            <option>Выберете услугу*</option>
+                        </select>
                         <button class="footer__accept__btn">Получить просчет</button>
                     </form>
                 </div>
