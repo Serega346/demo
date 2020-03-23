@@ -1,6 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,400i,700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tinos', serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    /*font-size: 48px;*/
+}
+
+p {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.line {
+    border-top: 1px solid black ;
+}
+
+.line-height {
+
+    line-height: 140%;
+
+}
+
+.grey {
+
+    background-color: #b4b4b4;
+    border: 2px solid gainsboro;
+
+}
+
+.text {
+
+    font-size: 1.5rem;
+
+}
+
+.line-height1 {
+
+    line-height: 120%;
+
+}
+
+.design {
+
+    margin-left: 5em;
+
+}
 body{
     margin: 0;
     padding: 0;
+  background-color: #F6F6F6;
 }
 .header{
     font-family: 'Khula', sans-serif;
@@ -365,4 +417,4 @@ body{
     .header {
         height: 900px;
     }
-  }
+}
