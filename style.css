@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Tinos:400,400i,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Khula:400,600&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
 
@@ -63,19 +63,22 @@ body {
 
 .header {
 
-    font-family: 'Khula', sans-serif;
     background: url(img/header.png) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 
 }
 
-.icon img {
+.header__topnav img {
 
+    display: block;
     cursor: pointer;
-    width: 32px;
-
+    position: fixed;
+    right: 0;
+    right: 20px;
+    top: 20px;
 }
+
 
 .header__menu__wrap {
 
@@ -92,24 +95,17 @@ body {
 
 .header__topnav {
 
-    background-color: #1c1c1c;
     overflow: hidden;
     position: fixed;
     width: 100%;
     z-index: 50;
-
-}
-
-.header__topnav .active {
-
-    font-size: 26px;
-    color: #ffffff;
-
+    right: 0;
 }
 
 #header__links {
 
     display: none;
+    background-color: #1c1c1c;
 
 }
 
@@ -142,7 +138,7 @@ body {
 
 .header__container {
 
-    max-width: 1095px;
+    max-width: 1090px;
     padding: 0 10px;
     margin: 0 auto;
 
@@ -152,7 +148,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    padding: 260px 0 100px;
+    padding: 352px 0 0;
     max-width: 735px;
     color: #e6e6e6;
 
@@ -160,6 +156,7 @@ body {
 
 .header__text h1 {
 
+    font-family: 'Khula', sans-serif;
     letter-spacing: 10px;
     margin: 0;
     font-size: 72px;
@@ -169,13 +166,16 @@ body {
 
 .header hr {
 
-    margin: 10px 0 0;
+    background-color: #ffffff;
+    margin: 20px 0 ;
     width: 650px;
+    height: 2px;
 
 }
 
 .header__text span {
 
+    font-family: 'Khula', sans-serif;
     letter-spacing: 3px;
     font-size: 36px;
     font-weight: 400;
@@ -184,8 +184,8 @@ body {
 
 .header__media {
 
-    position: absolute;
-    right: 0;
+    margin-top: 120px;
+    float: right;
     display: flex;
     justify-content: space-around;
     max-width: 160px;
@@ -193,11 +193,35 @@ body {
 }
 
 .header__media img {
-
+    filter: grayscale(0) blur(0);
+	transition: .3s ease-in-out;
     cursor: pointer;
     margin: 0 10px;
 
 }
+
+.header__media img:hover {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .footer {
 
@@ -478,7 +502,7 @@ button.footer__accept__btn {
 
     .header__text {
 
-        padding: 260px 0 170px;
+        padding: 195px 0 170px;
 
     }
 
