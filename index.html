@@ -1,232 +1,241 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
+
 <body>
-<header class="header">
-    <div class="header__topnav">
-        <p class="active" href="#home">LOGO</p>
-        <div id="header__links">
-            <a href="#">Наша цель</a>
-            <a href="#">Дома</a>
-            <a href="#">Архитектурное проектирование</a>
-            <a href="#">Дизайн</a>
-            <a href="#">Интерьер</a>
-            <a href="#">Ландшафт</a>
+    <header class="header">
+        <div class="header__topnav">
+            <p class="active" href="#home">LOGO</p>
+            <div id="header__links">
+                <a href="#goal">Наша цель</a>
+                <a href="#house">Дома</a>
+                <a href="#planning">Архитектурное проектирование</a>
+                <a href="#design">Дизайн</a>
+                <a href="#decoration">Интерьер</a>
+                <a href="#landscape">Ландшафт</a>
+            </div>
+            <a class="icon" href="javascript:void(0);" onclick="myFunction()">
+                <img alt="" src="img/btn.png">
+            </a>
         </div>
-        <a class="icon" href="javascript:void(0);" onclick="myFunction()">
-            <img alt="" src="img/btn.png">
-        </a>
-    </div>
-    <div class="header__container">
-        <div class="header__text">
-            <h1>Lorem ipsum</h1>
-            <hr>
-            <span class="header__description">
+        <div class="header__container">
+            <div class="header__text">
+                <h1>Lorem ipsum</h1>
+                <hr>
+                <span class="header__description">
                     <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, sed do</p>
                 </span>
-        </div>
-        <div class="header__media">
-            <img alt="" src="img/Instagram.png"/>
-            <img alt="" src="img/Facebook.png"/>
-        </div>
-    </div>
-</header>
-<main>
-    <div class="container mb-5">
-        <div class="row">
-            <div class="col-lg-2 col-md-2 col-2"></div>
-            <div class="col-lg-10 col-md-10 col-12 mt-5">
-                <h1>Наша<br>цель</h1>
-                <hr>
             </div>
-            <div class="col-2"></div>
-            <div class="col-lg-7 col-md-7 col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <div class="header__media">
+                <img alt="" src="img/Instagram.png" />
+                <img alt="" src="img/Facebook.png" />
             </div>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-10">
-                <h1 class="pb-3">Дома</h1>
-            </div>
-            <div class="col-2 line"></div>
-            <div class="col-xl-4 col-lg-4 col-md-11 col-sm-11 line">
-                <p class="line-height mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna</p>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <img alt="" height="400" src="img/1-a-house-ext11.jpg" width="540">
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-4 grey">
-                <h4 class="pt-4 pl-3">Lorem ipsum</h4>
-                <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud</p>
-                <span class="pl-3">_______Про проект</span>
-                <span></span>
-            </div>
-            <div class="col-sm-12 col-xl-6 col-md-6 col-lg-6 pt-4 ml-xl-3 ml-lg-3 m-auto">
-                <img alt="" height="340" src="img/brewster-mcleod-architects-14861541431.jpg" width="500">
+    </header>
+    <main>
+        <div id="goal" class="container mb-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-2"></div>
+                <div class="col-lg-10 col-md-10 col-12 mt-5">
+                    <h1>Наша<br>цель</h1>
+                    <hr>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-lg-7 col-md-7 col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-12 text-right mb-3">
-                <h1>Архитектурное проектирование</h1>
-            </div>
-            <div class="col-6 pl-0">
-                <img alt="" height="400" src="img/rem-2580.jpg" width="540">
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 line mb-2">
-                <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna</p>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 ml-xl-5 ml-lg-5 ml-md-3 ml-sm-auto">
-                <img alt="" height="340" src="img/9989.jpg" width="500">
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
-                <h4 class="pt-4 pl-3">Lorem ipsum</h4>
-                <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud</p>
-                <span class="pl-3">______Про проект</span>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="design">Дизайн</h1>
-            </div>
-            <div class="col-1 line mt-4"></div>
-            <div class="col-xl-4 col-lg-4 col-md-11 col-sm-12 line pt-4 mt-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna</p>
-            </div>
-            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12  mt-4">
-                <img alt="" height="430" src="img/1048-1-750x402.jpg" width="630">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mt-4 ml-5">
-                <img alt="" height="360" src="img/проектировка_дома.jpg" width="445">
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-12 col-lg-5 mt-4">
-                <img alt="" height="359" src="img/30363d_kuhnya.jpg" width="445">
+        <div id="house" class="container mt-5">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <h1 class="pb-3">Дома</h1>
+                </div>
+                <div class="col-2 line"></div>
+                <div class="col-xl-4 col-lg-4 col-md-11 col-sm-11 line">
+                    <p class="line-height mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <img alt="" height="400" src="img/1-a-house-ext11.jpg" width="540">
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-4 grey">
+                    <h4 class="pt-4 pl-3">Lorem ipsum</h4>
+                    <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,
+                        quis nostrud</p>
+                    <span class="pl-3">_______Про проект</span>
+                    <span></span>
+                </div>
+                <div class="col-sm-12 col-xl-6 col-md-6 col-lg-6 pt-4 ml-xl-3 ml-lg-3 m-auto">
+                    <img alt="" height="340" src="img/brewster-mcleod-architects-14861541431.jpg" width="500">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6">
-                <h1>Интерьер</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 text-right mb-3">
+                    <h1 id="planning">Архитектурное проектирование</h1>
+                </div>
+                <div class="col-6 pl-0">
+                    <img alt="" height="400" src="img/rem-2580.jpg" width="540">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 line mb-2">
+                    <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 ml-xl-5 ml-lg-5 ml-md-3 ml-sm-auto">
+                    <img alt="" height="340" src="img/9989.jpg" width="500">
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
+                    <h4 class="pt-4 pl-3">Lorem ipsum</h4>
+                    <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,
+                        quis nostrud</p>
+                    <span class="pl-3">______Про проект</span>
+                </div>
             </div>
-            <div class="col-6">
-                <img alt="" height="400" src="img/Картинка%203.jpg" width="540">
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="design" class="design">Дизайн</h1>
+                </div>
+                <div class="col-1 line mt-4"></div>
+                <div class="col-xl-4 col-lg-4 col-md-11 col-sm-12 line pt-4 mt-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna</p>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12  mt-4">
+                    <img alt="" height="430" src="img/1048-1-750x402.jpg" width="630">
+                </div>
+                <div class="col-1"></div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mt-4 ml-5">
+                    <img alt="" height="360" src="img/проектировка_дома.jpg" width="445">
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-12 col-lg-5 mt-4">
+                    <img alt="" height="359" src="img/30363d_kuhnya.jpg" width="445">
+                </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 line">
-                <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna</p>
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
-                <h4 class="pt-4 pl-3">Lorem ipsum</h4>
-                <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud</p>
-                <span class="pl-3">______Про проект</span>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 ml-4">
-                <img alt="" height="340" src="img/Картинка%204.jpg" width="420">
-            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                    <h1 id="decoration">Интерьер</h1>
+                </div>
+                <div class="col-6">
+                    <img alt="" height="400" src="img/Картинка%203.jpg" width="540">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 line">
+                    <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
+                    <h4 class="pt-4 pl-3">Lorem ipsum</h4>
+                    <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,
+                        quis nostrud</p>
+                    <span class="pl-3">______Про проект</span>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mt-5 ml-4">
+                    <img alt="" height="340" src="img/Картинка%204.jpg" width="420">
+                </div>
 
-        </div>
-    </div>
-    <div class="container mt-5 mb-4">
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-10">
-                <h1 class="pb-3">Ландшафт</h1>
-            </div>
-            <div class="col-2 line"></div>
-            <div class="col-xl-4 col-lg-4 col-md-11 col-sm-11 line">
-                <p class="line-height mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna</p>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <img alt="" height="400" src="img/garden_landscape-min.jpg" width="540">
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
-                <h4 class="pt-4 pl-3">Lorem ipsum</h4>
-                <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud</p>
-                <span class="pl-3">______Про проект</span>
-            </div>
-            <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5">
-                <img alt="" height="340" src="img/landshaftnyj-dizajn1_1000_auto_jpg.jpg" width="420">
             </div>
         </div>
-    </div>
-</main>
-<footer class="footer">
-    <div class="footer__container">
-        <div class="footer__about_us">
-            <h2>О нас</h2>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <div class="container mt-5 mb-4">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <h1 id="landscape" class="pb-3">Ландшафт</h1>
+                </div>
+                <div class="col-2 line"></div>
+                <div class="col-xl-4 col-lg-4 col-md-11 col-sm-11 line">
+                    <p class="line-height mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <img alt="" height="400" src="img/garden_landscape-min.jpg" width="540">
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5 grey">
+                    <h4 class="pt-4 pl-3">Lorem ipsum</h4>
+                    <p class="line-height1 text pl-3 pt-4 pb-4 w-auto">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam,
+                        quis nostrud</p>
+                    <span class="pl-3">______Про проект</span>
+                </div>
+                <div class="col-sm-12 col-xl-5 col-md-5 col-lg-5 mt-5">
+                    <img alt="" height="340" src="img/landshaftnyj-dizajn1_1000_auto_jpg.jpg" width="420">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__about_us">
+                <h2>О нас</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                     labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum
                     dolore eu fugiat nulla pariatur. </span>
+            </div>
+            <div class="footer__contact_us">
+                <h2>Связаться с нами</h2>
+                <div class="footer__contact_us__number">
+                    <p>+(380)-73-777-7777</p>
+                </div>
+                <div class="footer__contact_us__mail">
+                    <p>qwerty@ukr.net</p>
+                </div>
+                <div class="footer___cost">
+                    <h2>Узнать стоимость проекта</h2>
+                    <form action="#" method="POST" target="_blank">
+                        <input autocomplete="On" id="firstName" maxlength="20" minlength="5" name="firstName"
+                            placeholder="Имя*" required type="text">
+                        <input autocomplete="On" id="phoneNumber" maxlength="20" minlength="5" name="phoneNumber"
+                            placeholder="Номер телефона*" required type="tel">
+                        <select class="form-control form-control-lg footer__choice__btn">
+                            <option>Выберете услугу*</option>
+                        </select>
+                        <button class="footer__accept__btn">Получить просчет</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="footer__contact_us">
-            <h2>Связаться с нами</h2>
-            <div class="footer__contact_us__number">
-                <p>+(380)-73-777-7777</p>
-            </div>
-            <div class="footer__contact_us__mail">
-                <p>qwerty@ukr.net</p>
-            </div>
-            <div class="footer___cost">
-                <h2>Узнать стоимость проекта</h2>
-                <form action="#" method="POST" target="_blank">
-                    <input autocomplete="On" id="firstName" maxlength="20" minlength="5" name="firstName" placeholder="Имя*"
-                           required type="text">
-                    <input autocomplete="On" id="phoneNumber" maxlength="20" minlength="5" name="phoneNumber" placeholder="Номер телефона*"
-                           required type="tel">
-                    <select class="form-control form-control-lg footer__choice__btn">
-                        <option>Выберете услугу*</option>
-                    </select>
-                    <button class="footer__accept__btn">Получить просчет</button>
-                </form>
-            </div>
+    </footer>
+    <div class="footer__copyright">
+        <div class="footer__copyright__container">
+            <img alt="" src="img/copy.png">
         </div>
     </div>
-</footer>
-<div class="footer__copyright">
-    <div class="footer__copyright__container">
-        <img alt="" src="img/copy.png">
-    </div>
-</div>
-<script src="main.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <script src="main.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    <script crossorigin="anonymous" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
